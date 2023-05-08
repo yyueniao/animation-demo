@@ -1,0 +1,33 @@
+.buttonGroup {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 50px;
+  bottom: 0;
+  height: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.button {
+  position: relative;
+  background-color: transparent;
+}
+
+.first {
+  justify-self: end;
+  align-self: end;
+}
+.second {
+  justify-self: start;
+  align-self: end;
+}
+.third {
+  justify-self: end;
+  align-self: start;
+}
+.forth {
+  justify-self: start;
+  align-self: start;
+}

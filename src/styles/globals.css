@@ -7,8 +7,17 @@ body {
 }
 
 #window {
+	position: relative;
 	width: 1080px;
 	height: 1920px;
 	margin: auto;
-	background-color: white;
+	background-image: url("/global/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img.fixed {
+	position: absolute;
+	top: 0;
+	left: 0;
 }
