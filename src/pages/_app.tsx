@@ -2,9 +2,9 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
-	return (
-		<main id="window">
-			<Component {...pageProps} />
-		</main>
-	);
+  return (
+    <main id="window">
+      <Component {...pageProps} />
+    </main>
+  );
 }
